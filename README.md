@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "alpiysl/terraform-aws-docker-instance"
+    source = "alpiysl/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
